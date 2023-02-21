@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tarea1.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="num1"
+                   Placeholder="Numero 1"
+                   Keyboard="Numeric"
+                   
+                   />
+            <Entry x:Name="num2"
+                   Placeholder="Numero 2"
+                   Keyboard="Numeric"
+                   
+                   />
+            <Button x:Name="sum"
+                    Text="Suma"
+                    Background="Green"
+                    TextColor="White"
+                    BorderColor="Black"
+                    Clicked="Sumar_Clicked"
+                    
+                    />
+            <Button x:Name="rest"
+                    Text="Resta"
+                    Background="Red"
+                    TextColor="White"
+                    BorderColor="Black"
+                    Clicked="restar_Clicked"
+                    
+                    />
+            <Button x:Name="div"
+                    Text="Division"
+                    Background="Blue"
+                    TextColor="White"
+                    BorderColor="Black"
+                    Clicked="dividir_Clicked"
+                    
+                    />
+            <Button x:Name="multi"
+                    Text="Multiplicacion"
+                    Background="Orange"
+                    TextColor="White"
+                    BorderColor="Black"
+                    Clicked="multiplicar_Clicked"
+                    
+                    />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
